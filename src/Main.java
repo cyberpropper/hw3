@@ -20,24 +20,24 @@ public class Main {
         System.out.println(f);
 
 
-        byte list = 480/(23+27+30);;
+        double list = 480/(23+27+30);
         System.out.println("На каждого ученика рассчитано " + list + " листов бумаги");
 
 
-        short min = 16*(20/2);
-        System.out.println(min);
-        short sut = 16*(1440/2);
-        System.out.println(sut);
-        int sss = 16*(4320/2);
-        System.out.println(sss);
-        int mes = 16*(43200/2);
-        System.out.println(mes);
+        short in20Minutes = 16*(20/2);
+        System.out.println("За 20 минут машина произвела " + in20Minutes + " штук бутылок");
+        short inDay = 16*(1440/2);
+        System.out.println("За сутки машина произвела " + inDay + " штук бутылок");
+        int in3Days = 16*(4320/2);
+        System.out.println("За 3 дня машина произвела " + in3Days + " штук бутылок");
+        int inMonth = 16*(43200/2);
+        System.out.println("За месяц машина произвела " + inMonth + " штук бутылок");
 
 
-        byte classes = 120 / (2 + 4);
-        int white = classes * 2;
-        int brown = classes * 4;
-        System.out.println("В школе, где " + classes + " классов, нужно " + white + " банок белой краски и " + brown + " банок коричневой краски.");
+        byte schoolClasses = 120 / (2 + 4);
+        byte whiteCans = (byte) (schoolClasses * 2);
+        byte brownCans = (byte) (schoolClasses * 4);
+        System.out.println("В школе, где " + schoolClasses + " классов, нужно " + whiteCans + " банок белой краски и " + brownCans + " банок коричневой краски.");
 
 
         int bananas = 5 * 80;
@@ -53,7 +53,7 @@ public class Main {
         int g250 = gramsAll / 250;
         int g500 = gramsAll / 500;
         int days = (g250 + g500) / 2;
-        System.out.println("Если спортсмен будет худеть на 250 грамм - " + g250 + " дней. Если будет худеть на 500 грамм - " + g500 + " дней. В среднем - " + days + " дней.");
+        System.out.println("Если спортсмен будет худеть на 250 грамм, то ему понадобится " + g250 + " дней. Если будет худеть на 500 грамм - " + g500 + " дней. В среднем - " + days + " дней.");
 
 
         int masha = 67760;
